@@ -7,7 +7,7 @@ function Happynumber(num) {
     let slow=num,fast=num;
 
     while(1){
-        slow=findSquare(slow);
+        slow=findSquare(slow);//2.2 + 3.3 ==// 
         fast=findSquare(findSquare(fast));
 
         if(slow===fast){
